@@ -18,9 +18,9 @@ const data = dashboard as dashboardDataTypes;
 export default function Dashboard() {
   const [active, setActive] = useState('Dashboard');
   const [menuOpen, setMenuOpen] = useState(false);
-  const { logout } = Session();
   const [metricVal, setMetricVal] = useState('3');
   const [openAlert, closeAlert] = useState(false);
+  const { logout } = Session();
 
   const navigate = useNavigate();
 
@@ -31,9 +31,11 @@ export default function Dashboard() {
     navigate('/');
   };
 
-  const result = sessionStorage.getItem('users') || '';
+  // const result = sessionStorage.getItem('users') || '';
 
-  const user = JSON.parse(result);
+  // const us = JSON.parse(result);
+
+  const user = {firstname: 'Derick', lastname: 'Opoku'}
 
   return (
     <>
