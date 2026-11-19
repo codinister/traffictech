@@ -34,9 +34,7 @@ button,
 select {
   font: inherit;
 }
-button {
-  cursor: pointer;
-}
+
 .app-shell {
   min-height: 100vh;
 }

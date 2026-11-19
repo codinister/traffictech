@@ -1,18 +1,56 @@
 {
-  "admin": { "name": "Emmanuel Agyemang", "role": "Administrator", "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop&crop=faces" },
+  "admin": {
+    "name": "Emmanuel Agyemang",
+    "role": "Administrator",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop&crop=faces"
+  },
   "location": "Accra, Ghana",
   "lastUpdated": "Nov 14, 2026 • 10:15 AM",
   "metrics": [
-    { "label": "Total Vehicles", "value": "1,248", "detail": "(Last Hour)", "change": "12%", "direction": "up", "tone": "blue", "icon": "car", "points": [5,8,7,9,8,11,9,13,16,15,20,18,22,24,21] },
-    { "label": "Avg Travel Time", "value": "28 min", "change": "8%", "direction": "down", "tone": "green", "icon": "clock", "points": [4,5,4,7,6,9,7,8,12,9,13,10,16,13,18] },
-    { "label": "Road Capacity", "value": "72%", "tone": "orange", "icon": "cone", "points": [3,5,4,7,6,8,7,5,9,6,12,8,14,10,12] },
-    { "label": "Active Alerts", "value": "3", "tone": "red", "icon": "alert", "points": [8,11,9,10,8,7,12,6,9,7,15,8,18,10,13] }
+    {
+      "label": "Total Vehicles",
+      "value": "1,248",
+      "detail": "(Last Hour)",
+      "change": "12%",
+      "direction": "up",
+      "tone": "blue",
+      "icon": "car",
+      "points": [5, 8, 7, 9, 8, 11, 9, 13, 16, 15, 20, 18, 22, 24, 21]
+    },
+    {
+      "label": "Avg Travel Time",
+      "value": "28 min",
+      "change": "8%",
+      "direction": "down",
+      "tone": "green",
+      "icon": "clock",
+      "points": [4, 5, 4, 7, 6, 9, 7, 8, 12, 9, 13, 10, 16, 13, 18]
+    },
+    {
+      "label": "Active Alerts",
+      "value": "3",
+      "tone": "red",
+      "icon": "alert",
+      "points": [8, 11, 9, 10, 8, 7, 12, 6, 9, 7, 15, 8, 18, 10, 13]
+    }
   ],
   "cameraFeeds": [
-    { "title": "Accra Mall Rd", "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=700&q=85" },
-    { "title": "Ring Road Central", "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=700&q=85" },
-    { "title": "Airport Rd", "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=700&q=85" },
-    { "title": "Liberation Rd", "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=700&q=85" }
+    {
+      "title": "Accra Mall Rd",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=700&q=85"
+    },
+    {
+      "title": "Ring Road Central",
+      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=700&q=85"
+    },
+    {
+      "title": "Airport Rd",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=700&q=85"
+    },
+    {
+      "title": "Liberation Rd",
+      "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=700&q=85"
+    }
   ],
   "congestedAreas": [
     { "name": "Ring Road Central", "level": 95 },
@@ -22,20 +60,56 @@
     { "name": "Spintex Rd", "level": 58 }
   ],
   "alerts": [
-    { "title": "Heavy Traffic on Ring Road Central", "time": "10:12 AM", "age": "8 min ago", "severity": "High" },
-    { "title": "Slow Movement at Accra Mall", "time": "09:58 AM", "age": "22 min ago", "severity": "Medium" },
-    { "title": "Road Work on Airport Road", "time": "09:30 AM", "age": "50 min ago", "severity": "Info" }
+    {
+      "title": "Heavy Traffic on Ring Road Central",
+      "time": "10:12 AM",
+      "age": "8 min ago",
+      "severity": "High"
+    },
+    {
+      "title": "Slow Movement at Accra Mall",
+      "time": "09:58 AM",
+      "age": "22 min ago",
+      "severity": "Medium"
+    },
+    {
+      "title": "Road Work on Airport Road",
+      "time": "09:30 AM",
+      "age": "50 min ago",
+      "severity": "Info"
+    }
   ],
   "trafficTrends": {
-    "labels": ["12AM", "2AM", "4AM", "6AM", "8AM", "10AM", "12PM", "2PM", "4PM", "6PM", "8PM", "10PM", "12AM"],
-    "vehicles": [650, 590, 610, 700, 920, 1010, 1190, 1260, 1320, 1190, 1080, 940, 760],
+    "labels": [
+      "12AM",
+      "2AM",
+      "4AM",
+      "6AM",
+      "8AM",
+      "10AM",
+      "12PM",
+      "2PM",
+      "4PM",
+      "6PM",
+      "8PM",
+      "10PM",
+      "12AM"
+    ],
+    "vehicles": [
+      650, 590, 610, 700, 920, 1010, 1190, 1260, 1320, 1190, 1080, 940, 760
+    ],
     "speed": [430, 410, 405, 470, 600, 580, 640, 680, 710, 650, 600, 570, 460]
   },
   "map": {
     "image": "https://images.unsplash.com/photo-1569336415962-a4bd9f69c07b?w=1400&q=90",
     "markers": [
       { "label": "Legon", "left": "21%", "top": "24%", "kind": "camera" },
-      { "label": "Kotoka International Airport", "left": "73%", "top": "15%", "kind": "plane" },
+      {
+        "label": "Kotoka International Airport",
+        "left": "73%",
+        "top": "15%",
+        "kind": "plane"
+      },
       { "label": "Circle", "left": "56%", "top": "53%", "kind": "alert" },
       { "label": "Osu", "left": "71%", "top": "76%", "kind": "camera" },
       { "label": "Madina", "left": "28%", "top": "55%", "kind": "camera" }

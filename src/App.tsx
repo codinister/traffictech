@@ -1,8 +1,13 @@
-import {RouterProvider} from 'react-router-dom'
-import routes from '../utils/useRoutes'
-function App() {
+import { RouterProvider } from 'react-router-dom';
+import routes from '../utils/useRoutes';
+import { SessionContextProvider } from '../context/SessionContext';
 
-  return <RouterProvider router={routes} />
+function App() {
+  return (
+    <SessionContextProvider>
+      <RouterProvider router={routes} />
+    </SessionContextProvider>
+  );
 }
 
-export default App
+export default App;
