@@ -1,5 +1,5 @@
 import { FaBell, FaCircleInfo, FaTriangleExclamation } from "react-icons/fa6";
-import { dashboardDataTypes } from "../../types/dashboardTypes";
+import type { dashboardDataTypes } from "../../types/dashboardTypes";
 import dashboard from '../../data/dashboard.json';
 
 function Alerts() {

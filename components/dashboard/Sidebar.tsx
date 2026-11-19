@@ -1,4 +1,4 @@
-import { dashboardDataTypes } from "../../types/dashboardTypes";
+import type { dashboardDataTypes } from "../../types/dashboardTypes";
 import navLinks from "../../utils/navLinks";
 import dashboard from '../../data/dashboard.json';
 import { FaLocationDot } from "react-icons/fa6";

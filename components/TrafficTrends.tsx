@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+
 import { useState } from "react";
 import { FaArrowTrendUp } from "react-icons/fa6";
 

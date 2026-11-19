@@ -8,7 +8,7 @@ import { useState } from 'react';
 import { logOutEndpoint } from '../service/endPoints';
 import { Session } from '../context/SessionContext';
 import { useNavigate } from 'react-router-dom';
-import { dashboardDataTypes } from '../types/dashboardTypes';
+import type { dashboardDataTypes } from '../types/dashboardTypes';
 import Sidebar from './dashboard/Sidebar';
 import Alerts from './dashboard/Alerts';
 import Congestion from './dashboard/Congestion';

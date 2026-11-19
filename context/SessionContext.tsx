@@ -1,5 +1,5 @@
 import { useContext, createContext, useState } from 'react';
-import { Users } from '../types/schemaType';
+import type { Users } from '../types/schemaType';
 
 type contextType = {
   isLogin: boolean;

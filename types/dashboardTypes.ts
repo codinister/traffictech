@@ -1,4 +1,4 @@
-import { AlertItem, CameraFeed, CongestedArea, Metric } from "../types";
+import type { AlertItem, CameraFeed, CongestedArea, Metric } from '../types';
 
 export type dashboardDataTypes = {
   admin: { name: string; role: string; avatar: string };
