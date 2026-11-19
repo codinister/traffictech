@@ -13,7 +13,6 @@ import Sidebar from './dashboard/Sidebar';
 import Alerts from './dashboard/Alerts';
 import Congestion from './dashboard/Congestion';
 import AlertModal from './dashboard/AlertModal';
-
 const data = dashboard as dashboardDataTypes;
 
 export default function Dashboard() {
@@ -27,10 +26,9 @@ export default function Dashboard() {
 
   const handleClick = async () => {
     const { data } = await logOutEndpoint('/logout');
-    if (data?.message === 'Logout successfull!') {
-      logout();
-      navigate('/');
-    }
+    console.log(data);
+    logout();
+    navigate('/');
   };
 
   const result = sessionStorage.getItem('users') || '';
@@ -61,7 +59,10 @@ export default function Dashboard() {
               <p>Real-time traffic overview across Accra</p>
             </div>
             <div className="profile-actions">
-              <button className="border border-red-500 bg-red-500 text-white py-1 px-4 rounded-2xl cursor-pointer flex items-center hover:bg-blue-950 hover:text-white" onClick={()=> closeAlert(true)}>
+              <button
+                className="border border-red-500 bg-red-500 text-white py-1 px-4 rounded-2xl cursor-pointer flex items-center hover:bg-blue-950 hover:text-white"
+                onClick={() => closeAlert(true)}
+              >
                 Add Alert
               </button>
               <button
@@ -79,7 +80,9 @@ export default function Dashboard() {
               </button>
               <img src={data.admin.avatar} alt="" />
               <div>
-                <strong>{user?.firstname} {user?.lastname}</strong>
+                <strong>
+                  {user?.firstname} {user?.lastname}
+                </strong>
                 <small>{data.admin.role}</small>
               </div>
               <span>⌄</span>
